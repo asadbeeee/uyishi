@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 70px;
+    background-color: #1f2a33;
+}
+
+.logotip {
+    position: relative;
+    right: 63px;
+}
+
+.ale {
+    color: rgb(46, 116, 245);
+}
+
+.logo_h1 {
+    color: white;
+    position: relative;
+    right: 15%;
+}
+
+
+.ul_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    right: 100px;
+}
+
+.ul_items a {
+    color: white;
+    font-size: 20px;
+    transition: 0.7s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ul_items a:hover {
+    color: rgb(25, 99, 235);
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bck_image {
+    background-image: url('tech-background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+}
+
+.nomi {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.pkl {
+    color: rgb(46, 116, 245);
+}
+
+.iphone {
+    position: relative;
+    bottom: 1040px;
+    left: 50px;
+}
+
+.frd {
+    color: rgb(36, 84, 175);
+}
+
+.header_div {
+    background-color: #1f2a33;
+    border-radius: 50px;
+    width: 320px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.7px solid rgb(36, 84, 175);
+}
+
+.asd {
+    padding-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uuu {
+    color: rgb(36, 84, 175);
+}
+
+.malumot {
+    color: rgb(36, 84, 175);
+}
+
+.text {
+    padding-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn_divs {
+    padding-top: 30px;
+    display: flex;
+}
+
+.btn_1 {
+    width: 150px;
+    height: 57px;
+    background-color: #24323d;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgb(36, 84, 175);
+    transition: 0.6s;
+}
+
+.btn_2 {
+    width: 150px;
+    height: 57px;
+    background-color: #24323d;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgb(36, 84, 175);
+    transition: 0.6s;
+    position: relative;
+    left: 15px;
+}
+
+.btn_1:hover {
+    background-color: rgb(36, 84, 175);
+}
+
+.btn_2:hover {
+    background-color: rgb(36, 84, 175);
+}
+
+.btn_1 a {
+    color: white;
+}
+
+.btn_1 a:hover {
+    color: white;
+}
+
+.btn_2 a {
+    color: white;
+}
+
+.btn_2 a:hover {
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: 600px;
+    background-color: #181f25;
+    position: relative;
+    bottom: 330px;
+}
+.baby{
+    position: relative;
+    top: 50px;
+    color: rgb(36, 84, 175);
+    left: 30px;
+}
+.polly{
+    position: relative;
+    left: 26px;
+    color: white;
+    top: 50px;
+}
+.parent{
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.person{
+    width: 250px;
+    height: 250px;
+    background-color: #0c0f11;
+    border-radius: 10px;
+    border: 0.7px solid  rgb(36, 84, 175);
+}
+.robiy{
+ position: relative;
+ left: 54px;
+ top: 10px;
+}
+.ip{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.smrt{
+    color: gray;
+    position: relative;
+    top: 10px;
+    left: 13px;
+}
+
+.narx{
+    position: relative;
+    top: 10px;
+    left: 11px;
+    color:rgb(36, 84, 175) ;
+
+}
+.design{
+    background-color: rgb(36, 84, 175);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+    left: 10px;
+    height: 30px;
+    transition: 0.7s;
+}
+.design:hover{
+    background-color: black;
+    color: red;
+}
+footer{
+    position: relative;
+    bottom: 400px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px 25px;
+    }
+
+    .logotip {
+        max-width: 45px;
+        height: auto;
+    }
+
+    .logo_h1 {
+        font-size: 27px;
+    }
+
+    .ul_items {
+        gap: 18px;
+    }
+
+    .images {
+        gap: 12px;
+    }
+
+    .iphone {
+        max-width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .asd {
+        font-size: 38px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .person {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .robiy {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer .navbar {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .logo_h1 {
+        font-size: 24px;
+    }
+
+    .ul_items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .ul_items li {
+        list-style: none;
+    }
+
+    .ul_items a {
+        font-size: 14px;
+    }
+
+    .images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .images img {
+        max-width: 28px;
+        height: auto;
+    }
+
+    .iphone {
+        position: relative;
+        width: 100%;
+        padding: 25px 18px;
+        box-sizing: border-box;
+    }
+
+    .frd {
+        font-size: 17px;
+    }
+
+    .asd {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .btn_divs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .btn_1,
+    .btn_2 {
+        max-width: 100%;
+    }
+
+    .baby {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 12px;
+    }
+
+    .polly {
+        font-size: 25px;
+        text-align: center;
+        padding: 0 12px;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .person {
+        width: 100%;
+        min-width: 0;
+        padding: 15px 8px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .robiy {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .ip {
+        font-size: 16px;
+        overflow-wrap: anywhere;
+    }
+
+    .smrt {
+        font-size: 13px;
+    }
+
+    .narx {
+        font-size: 18px;
+        overflow-wrap: anywhere;
+    }
+
+    .design {
+        max-width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        gap: 10px;
+        padding: 12px 8px;
+    }
+
+    .logotip {
+        width: 35px;
+    }
+
+    .logo_h1 {
+        font-size: 21px;
+    }
+
+    .ul_items {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .ul_items a {
+        font-size: 12px;
+    }
+
+    .images {
+        gap: 12px;
+    }
+
+    .iphone {
+        padding: 20px 14px;
+    }
+
+    .frd {
+        font-size: 15px;
+    }
+
+    .asd {
+        font-size: 25px;
+        line-height: 1.35;
+    }
+
+    .text {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .btn_divs {
+        gap: 10px;
+    }
+
+    .baby {
+        font-size: 16px;
+    }
+
+    .polly {
+        font-size: 21px;
+    }
+
+    .parent {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .person {
+        padding: 12px 5px;
+    }
+
+    .ip {
+        font-size: 14px;
+    }
+
+    .smrt {
+        font-size: 12px;
+    }
+
+    .narx {
+        font-size: 15px;
+    }
+
+    .design {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    footer .navbar {
+        gap: 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+}
